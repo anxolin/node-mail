@@ -1,0 +1,19 @@
+{
+  "name": "@anxolin/mail",
+  "version": "0.1.0",
+  "description": "Simple mail repository",
+  "main": "src/repositories/mailRepo",
+  "dependencies": {
+    "dotenv": "^6.0.0"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0",
+    "nodemailer": "^4.6.7"
+  },
+  "scripts": {
+    "test": "jest",
+    "send-mail": "node test/sendMail.js"
+  },
+  "author": "Angel Rodriguez <anxolin@gmail.com> (https://github.com/anxolin)",
+  "license": "ISC"
+}
